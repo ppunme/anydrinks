@@ -1,0 +1,20 @@
+.page-number {
+  background-color: #fff;
+  color: #5d5c5c;
+  border: none;
+  margin-left: 0 !important;
+}
+
+.page-number.active {
+  background-color: #212529;
+  color: #fff;
+  border-radius: 0;
+}
+
+.page-link:focus {
+  box-shadow: none;
+}
+
+.page-number i {
+  font-weight: 700;
+}

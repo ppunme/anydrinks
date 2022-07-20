@@ -1,0 +1,29 @@
+.product-details {
+  width: 100%;
+  max-width: none;
+  padding: 2rem;
+}
+
+.product-details img {
+  width: 200px;
+}
+
+.s-product-title {
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.3px;
+}
+.s-product-price {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.add-cart-btn {
+  width: 200px;
+}
+
+@media (min-width: 768px) {
+  .product-details img {
+    width: 300px;
+  }
+}
