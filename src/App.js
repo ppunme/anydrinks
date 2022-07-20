@@ -24,13 +24,14 @@ import OrderDetails from "./components/account/OrderDetails";
 import ChangePassword from "./components/account/ChangePassword";
 import { CartProvider } from "./components/store/CartContext";
 import { AuthProvider } from "./components/store/AuthContext";
+import { basePath as basename } from "./config.json";
 import "./App.css";
 
 const App = () => {
   return (
     <AuthProvider>
       <CartProvider>
-        <Router>
+        <Router basename={basename}>
           <Switch>
             <Route exact path="/anydrinks/login" component={Login} />
             <Route exact path="/anydrinks/signup" component={Signup} />

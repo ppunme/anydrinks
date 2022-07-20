@@ -67,7 +67,7 @@ const Profile = () => {
       <h4 className="account-title mb-3">Profile</h4>
       <form className="s-form">
         <h6>Email Address</h6>
-        <p>{currentUser.email}</p>
+        {currentUser && <p>{currentUser.email}</p>}
         <h6>First Name</h6>
         <div className="s-input">
           <input
