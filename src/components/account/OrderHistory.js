@@ -96,7 +96,7 @@ const OrderHistory = () => {
               </p>
               <p className="mb-0">
                 Total Paid: <span>$</span>
-                <span>{order.docData.totalAmount}</span>
+                <span>{order.docData.totalAmount.toFixed(2)}</span>
               </p>
             </div>
             <div className="col-12 col-sm-6 mb-3 order-img">
